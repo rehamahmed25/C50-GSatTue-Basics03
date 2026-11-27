@@ -1,4 +1,5 @@
 ﻿using System.Drawing;
+using System.Text;
 
 namespace C50_GSatTue_Basics03
 {
@@ -21,9 +22,18 @@ namespace C50_GSatTue_Basics03
             //            Declare two separate string variables, both set to the literal "Clean Code".Use ReferenceEquals()
             //to check if they point to the same object in memory.
 
-            string s1 = "Reham";
-            string s2 = "Reham";
-            Console.WriteLine(object.ReferenceEquals(s1,s2));
+            //string s1 = "Reham";
+            //string s2 = "Reham";
+            //Console.WriteLine(object.ReferenceEquals(s1,s2));
+            #endregion
+
+            #region Question 3
+            //            Create a StringBuilder, Append() the text "Book List", then Append() " - Updated" onto the same
+            //object.Print the final result.
+            StringBuilder sb = new StringBuilder(" ");
+            sb.Append("Book List");
+            sb.Append(" - Updated");
+            Console.WriteLine(sb);
             #endregion
         }
     }
