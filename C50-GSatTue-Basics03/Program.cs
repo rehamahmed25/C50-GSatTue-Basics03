@@ -187,6 +187,23 @@ namespace C50_GSatTue_Basics03
                 Console.WriteLine(books[i]);
             }
             #endregion
+
+            #region Question 16
+            //Using the same books array, loop through it and print each title, but stop completely (break) once 
+            //you reach "Refactoring".
+
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+            for (int i = 0; i < books.Length; i++)
+            {
+                while (books[i] == "Refactoring")
+                {
+                    break;
+                }
+                Console.WriteLine(i + " . " + books[i]);
+            }
+
+            #endregion
         }
     }
 }
