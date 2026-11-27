@@ -37,19 +37,21 @@ namespace C50_GSatTue_Basics03
             //Console.WriteLine(sb);
             #endregion
 
-            #region Question 3
-//            Using the StringBuilder from the question above, use Replace() to change "Book List" into "Library".
-//Print the result.
-            StringBuilder sb = new StringBuilder(" ");
-            sb.Append("Book List");
-            sb.Append(" - Updated");
-            Console.WriteLine(sb);
+            #region Question 4
+            //            Using the StringBuilder from the question above, use Replace() to change "Book List" into "Library".
+            //Print the result.
+            //StringBuilder sb = new StringBuilder(" ");
+            //sb.Append("Book List");
+            //sb.Append(" - Updated");
+            //Console.WriteLine(sb);
 
 
-            sb.Replace("Book List" ,"Library");
-            Console.WriteLine(sb);
+            //sb.Replace("Book List" ,"Library");
+            //Console.WriteLine(sb);
 
             #endregion
+
+         
         }
     }
 }
