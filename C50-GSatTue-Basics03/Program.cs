@@ -61,6 +61,14 @@ namespace C50_GSatTue_Basics03
 
             #endregion
 
+            #region Question 6
+            //Build the same sentence as above, but using string interpolation ($"..."). 
+
+            string title2 = "Clean Code";
+            int pages2 = 464;
+            Console.WriteLine($"Book: { title} ,  { pages}");
+
+            #endregion
         }
     }
 }
